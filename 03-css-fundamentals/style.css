@@ -1,0 +1,92 @@
+h1,h2,h3,h4,p,li{
+  font-family: serif;
+
+}
+
+h1{
+  color:rgb(211, 16, 218);
+  text-shadow: 2px 2px #533ece;
+  font-size: 45px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+h2{
+  font-size: 40px;
+  color: #4e3bb9;
+  text-shadow: 2px 2px rgb(45, 219, 219);
+}
+
+h3{
+  font-size: 30px;
+}
+
+h4{
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+p{
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+li{
+  font-size: 20px;
+}
+
+nav{
+  font-size: 20px;
+}
+
+#copyright{
+  font-size: 16px;
+  color: blueviolet;
+}
+
+#author{
+  font-style: italic;
+  font-size: 18px;
+}
+
+.related{
+  list-style: none;
+}
+
+header{
+  background-color: #b8b6c9;
+}
+
+aside{
+  background-color: #f1d6d6;
+  border-top: 3px solid #4e3bb9;
+  border-bottom: 3px solid #4e3bb9;
+}
+
+body{
+ /* background-color: rgba(255, 217, 217, 0.5);*/
+}
+
+
+/*styling links*/
+a:link{
+  color:rgb(36, 185, 153);
+  text-decoration: none;
+}
+
+a:visited{
+  color:rgb(35, 168, 168);
+  font-weight: bold;
+}
+
+a:hover{
+  color:rgb(35, 168, 168);
+  font-weight: bold;
+  text-decoration: underline dotted orange ;
+}
+
+a:active{
+  background-color: rgb(24, 79, 182);
+  font-style: italic;
+}
